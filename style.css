@@ -1,48 +1,57 @@
+/* uncommenting borders allows visulation of 100% widths*/
+
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgrey;
-    text-align: center;
-}
-
-.mobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 700px;
-    background-color: rgb(17, 16, 16);
-    color: hsl(317, 46%, 38%);
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-weight: bold;
-    border: 3px solid black;
-    border-radius: 10%;
-    padding: 10px;
-    margin: 30px;
-}
-
-.content {
-    background-color: rgb(255, 255, 255);
-    border: 3px solid hsl(317, 46%, 38%);
-    border-radius: 10%;
-}
-.btn_container button {
-    background-color: hsl(190, 59%, 50%);
-    border-radius: 50%;
-    border: 3px solid rgb(255, 255, 255);
+    font-size: 1.125rem;
+    margin: 0;
     color: rgb(255, 255, 255);
-    font-family: 'Roboto Flex', sans-serif;
-    font-size: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width 980px:
+        margin: auto;
+}
+
+h5,
+h2 {
+    width: 100%;
+    background-color: white;
+    color: #70295C;
+    font-family: 'Poppins', 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    /*border: solid #70295C 3px;*/
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: solid #70295C 3px;*/
+}
+
+.col button {
+    background-color: #00829A;
+    border-radius: 50%;
+    border: solid #00829A 3px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
     font-weight: bold;
     height: 150px;
     width: 150px;
-    margin-bottom: 16px;
+    margin: 16px 0;
 }
 
-.cpyrght {
-    font-family: 'Montserrat', Arial, sans-serif;
+.col-cpy {
+    width: 100%;
+    background-color: #00556C;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 0.75rem;
+    text-align: center;
+    /*border: solid #70295C 3px;*/
+    margin-top: 1.66em;
 }
