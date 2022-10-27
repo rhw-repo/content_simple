@@ -45,6 +45,9 @@ h2 {
 }
 
 .col-cpy {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
     background-color: #00556C;
     color: rgb(255, 255, 255);
@@ -52,6 +55,12 @@ h2 {
     font-weight: bold;
     font-size: 0.75rem;
     text-align: center;
-    /*border: solid #70295C 3px;*/
+    border: solid #70295C 3px;
     margin-top: 1.66em;
+}
+
+.fa-solid fa-caret-left, 
+.fa-solid fa-house {
+    display: flex;
+    justify-content: space-between;
 }
