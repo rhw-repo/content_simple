@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 720px;
+    background-color: rgb(17, 16, 16);
+    color: hsl(317, 46%, 38%);
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 710px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid hsl(317, 46%, 38%);
+    border-radius: 10%;
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_find {
+    background-color: hsl(190, 59%, 50%);
+    border-radius: 30%;
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    height: 60px;
+    width: 150px;
+    margin: 30px 0px;
+}
+
+.cpyrght {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+}
